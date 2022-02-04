@@ -42,6 +42,11 @@ namespace ExampleExhaustiveSearch
 
             optMethod.Add(new EfficiencyMeasurement());
 
+
+            double[] xOptimal1;
+            var fOptimal1 = optMethod.Run(out xOptimal1);
+
+
             Random r = new Random();
 
             double[] bestSolution = null;
